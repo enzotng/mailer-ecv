@@ -40,6 +40,7 @@ Mailer ECV est une API qui permet de gérer des tâches et d’envoyer des notif
    EMAIL_USER=ton_email@gmail.com
    EMAIL_PASS=ton_mot_de_passe_application
    EMAIL_RECEPTION=adresse_email_de_reception@gmail.com
+   SMTP_SERVER_smtp.test.com
    ```
 
    > ⚠️ Utilisez un mot de passe d'application pour Gmail. Voir [Créer un mot de passe d&#39;application](https://support.google.com/mail/answer/185833?hl=fr) pour plus d’informations.
@@ -146,4 +147,4 @@ Enzo Tang
 
 ## Licence
 
-Ce projet est sous licence ISC.
+Projet académique - usage non commercial
