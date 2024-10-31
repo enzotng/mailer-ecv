@@ -14,7 +14,7 @@ const transporter = nodemailer.createTransport({
 export async function envoyerEmail(sujet: string, texte: string) {
     const options = {
         from: `"Mailer - ECV" <${process.env.EMAIL_USER}>`,
-        to: "enzotang@live.fr",
+        to: process.env.EMAIL_RECEPTION,
         subject: sujet,
         text: texte,
     };
