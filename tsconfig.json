@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+        "target": "ES6", // Version JavaScript cible.
+        "module": "commonjs", // Type de module utilisé.
+        "rootDir": "src", // Répertoire racine des fichiers source.
+        "outDir": "dist", // Répertoire de sortie des fichiers compilés.
+        "strict": true, // Activer toutes les vérifications strictes.
+        "esModuleInterop": true, // Activer la compatibilité avec les modules CommonJS.
+        "forceConsistentCasingInFileNames": true, // Vérifier la casse des noms de fichiers.
+        "skipLibCheck": true, // Ignorer la vérification des fichiers .d.ts.
+        "moduleResolution": "node", // Résolution de module de type Node.
+        "resolveJsonModule": true, // Permet l'importation des fichiers .json.
+        "types": ["node", "jest", "supertest"], // Types inclus pour la compilation.
+        "noImplicitAny": true, // Interdire l'utilisation de 'any' implicite.
+        "strictNullChecks": true, // Vérifier la nullité des valeurs.
+        "strictFunctionTypes": true, // Vérification stricte des types de fonction.
+        "strictPropertyInitialization": true, // Vérification stricte de l'initialisation des propriétés.
+        "noImplicitThis": true, // Interdire 'this' implicite.
+        "noImplicitReturns": true // Signaler les chemins de code sans retour explicite.
+    },
+    "include": ["src", "tests"], // Répertoires inclus dans la compilation.
+    "exclude": ["node_modules", "dist"] // Répertoires exclus de la compilation.
+}
