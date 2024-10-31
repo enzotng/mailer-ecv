@@ -1,7 +1,3 @@
-Voici la version mise à jour de ton `README.md` :
-
----
-
 # Mailer ECV
 
 ## Description
