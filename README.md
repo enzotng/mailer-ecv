@@ -144,6 +144,3 @@ Enzo Tang
 ## Licence
 
 Ce projet est sous licence ISC.
-Mailer ECV
-Mailer ECV
-Mailer ECV
